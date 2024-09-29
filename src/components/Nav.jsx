@@ -23,16 +23,20 @@ function Nav() {
         <ul
           tabIndex={0}
           className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-4 shadow text-black">
-            <Link to='/info' className='my-4 font-semibold'>Info Page</Link>
-            <Link to='/login' className='my-4 font-semibold'>SignUp Page</Link>
+                      <Link to='/' className='my-4 font-semibold'>Home</Link>
+                      <Link to='/info' className='my-4 font-semibold'>Info</Link>
+
+            <Link to='/login' className='my-4 font-semibold'>SignUp</Link>
         </ul>
       </div>
       <a className="btn btn-ghost text-xl">JS Bootcamp</a>
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-      <Link to='/info' className='mx-4'>Info Page</Link>
-      <Link to='/login' className='mx-4'>SignUp Page</Link>
+                  <Link to='/' className='mx-4'>Home</Link>
+                  <Link to='/info' className='mx-4'>Info</Link>
+
+      <Link to='/login' className='mx-4'>SignUp</Link>
       </ul>
     </div>
     <div className="navbar-end">
