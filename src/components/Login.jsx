@@ -5,11 +5,11 @@ function Login() {
       <>
     <Nav></Nav>
       <div className='p-5 w-full h-[50vh] flex flex-col items-center justify-center  max-md:items-start'>
-          <h1 className='font-bold mb-5 text-3xl'>SignUp</h1>
-          <div className='h-[60vh] flex flex-col justify-around'>
+          <div className='h-[70vh] flex flex-col justify-around'>
+          <h1 className='font-bold mb-5 text-3xl my-5'>SignUp</h1>
               
      
-<label className="input input-bordered flex items-center gap-2">
+<label className="input input-bordered flex items-center gap-2 my-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -22,7 +22,7 @@ function Login() {
   </svg>
   <input type="text" className="grow" placeholder="Email" />
 </label>
-<label className="input input-bordered flex items-center gap-2">
+<label className="input input-bordered flex items-center gap-2 my-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -33,7 +33,7 @@ function Login() {
   </svg>
   <input type="text" className="grow" placeholder="Username" />
 </label>
-<label className="input input-bordered flex items-center gap-2">
+<label className="input input-bordered flex items-center gap-2 my-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -46,7 +46,7 @@ function Login() {
   </svg>
   <input type="password" className="grow" value="password" />
             </label>
-            <button className="btn bg-[#4F29B7] text-white px-10">SingUp</button>
+            <button className="btn bg-[#4F29B7] text-white px-10 ">SingUp</button>
 
       </div>
             </div>
